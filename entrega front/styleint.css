@@ -1,0 +1,53 @@
+body {
+    font-family:serif;
+    background-color: #f4f4f4;
+    background-image: url(/img/imagenFondo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h1 {
+    background-color: rgba(255, 255, 255, 0.4); /* Fondo semi-transparente */
+    padding: 5px; /* Espacio adicional alrededor del texto */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra de texto */
+    margin-top: 0;
+}
+
+table {
+    margin: 20px auto;
+    border-collapse: collapse;
+    width: 80%;
+    background-color: #F9EBC7;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+thead th {
+    background-color: #A9B388;
+    color: white;
+    font-weight: bold;
+}
+
+thead th, tbody td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid white;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #F9EBC7;
+}
+
+
+button {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    font-size: 22px;
+    cursor: pointer;
+}

@@ -1,0 +1,126 @@
+body{
+    font-family: serif;
+    background-image: url(/img/imagenFondo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin: 0;
+}
+
+.bar{
+    background-color:transparent;
+    color:white;
+    height: 150px;
+    text-align: center;
+}
+
+
+section {
+    font-family: Arial, sans-serif;
+    background-color: transparent;
+    margin: 0;
+    padding: 0;
+}
+
+.card-container {
+    display: flex; 
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.card {
+   background-image: url(/img/planta\ int.jpg);
+    background-color: whitesmoke;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: transparent;
+    border: 8px solid #3F5C00;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px; 
+    width: calc(50% - 20px); 
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    cursor: pointer;
+}
+
+h2 {
+    background-color: rgba(255, 255, 255, 0.4); 
+    padding: 5px; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+    margin-top: 0;
+}
+
+p {
+    margin-bottom: 0;
+}
+
+.centered-card {
+    background-image: url(/img/calerndario.jpg);
+     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border: 8px solid #3F5C00;
+    border-radius: 5px;
+    padding: 20px;
+    width: 100%; 
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    margin-top: 10px; 
+    cursor: pointer;
+  
+}
+
+.img-tarjeta-3{
+    max-width: 20%; 
+    height: auto; 
+}
+
+.img-tarjeta{
+    max-width: 100%;
+    height: 300px;
+}
+
+p{
+    font-size: 1.5rem;
+}
+
+.card:hover,
+.card-ext:hover,
+.centered-card:hover {
+    color: black;
+    transform: scale(1.01); 
+}
+
+.card-ext {
+    background-image: url(/img/planta\ ext.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: transparent;
+    border: 8px solid #3F5C00;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px; 
+    width: calc(50% - 20px); 
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    cursor: pointer;
+}
+
+h1{
+    color: black;
+    background-color: rgba(255, 255, 255, 0.4); 
+    padding: 5px; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+    margin-top: 0;
+}
+
+
+
+.card-link {
+    display: block;
+    text-decoration: none; 
+    color: inherit; 
+}
